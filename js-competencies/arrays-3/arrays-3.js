@@ -12,6 +12,12 @@ var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 
 //Code here
 
+function sunset() {
+    let sunsetColorsCopy = [...sunsetColors]
+    sunsetColorsCopy.splice(0, 1, "blue")
+    return sunsetColorsCopy
+}
+
 
 //////////////////PROBLEM 2////////////////////
 
@@ -22,6 +28,12 @@ var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
 var sunriseColors = ["yellow", "orange", "red", "pink", "purple", "blue"]
 
 //Code here
+
+function sunrise() {
+    let sunriseColorsCopy = [...sunriseColors]
+    sunriseColorsCopy[0] = "green"
+    return sunriseColorsCopy
+}
 
 
 //////////////////PROBLEM 3////////////////////

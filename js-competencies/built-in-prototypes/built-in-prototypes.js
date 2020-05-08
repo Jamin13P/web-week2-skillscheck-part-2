@@ -11,6 +11,13 @@
   
   //Code here
 
+  function dragonMapper(arr) {
+    arr.map(function(element){
+      element = element + "...here be dragons"
+    })
+    return arr
+  }
+
 
 
 //////////////////PROBLEM 2////////////////////
